@@ -1,6 +1,5 @@
 export const words = [
   'Hi!',
-  "I'm Zheheng Zhang!",
-  'From Zhejiang, China',
+  "I'm Ethan Goh!",
   'Welcome to my site!'
 ]
