@@ -13,7 +13,7 @@ export const projects: Array<{
   {
     name: 'Oxc',
     repoLink: 'oxc-project/oxc',
-    description: 'The JavaScript Oxidation Compiler - A collection of JavaScript tools written in Rust',
+    description: 'The JavaScript Oxidation Compiler—A collection of JavaScript tools written in Rust',
     websiteLink: 'oxc.rs'
   },
   {
