@@ -1,10 +1,11 @@
-@import './utils.css';
+@import "./utils.css";
 
 :root {
   /* Font Families */
-  --mono-basic: 'Noto Sans', 'PingFang SC', 'Hiragino Sans GB',
-    'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
-  --mono-more: 'Palanquin Dark', Verdana, var(--mono-basic);
+  --mono-basic:
+    "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei",
+    sans-serif;
+  --mono-more: "Palanquin Dark", Verdana, var(--mono-basic);
   /* Colors */
   --near-black: #101010;
   --deep-gray: #3f3f3f;
@@ -120,18 +121,17 @@ input {
 }
 
 input:focus {
-  --uno: 'shadow-lg';
+  --uno: "shadow-lg";
 }
 
 @media (any-hover: hover) or (hover: hover) {
-
   textarea:hover,
   input:hover {
-    --uno: 'shadow-md'
+    --uno: "shadow-md";
   }
 }
 
-nav>* {
+nav > * {
   padding-left: 5px;
   padding-right: 5px;
 }

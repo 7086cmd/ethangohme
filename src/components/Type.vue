@@ -5,11 +5,11 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
-import { words } from '../logics/typeWords'
-import { useTyper } from '../logics/typer'
+import { onMounted } from "vue";
+import { words } from "../logics/typeWords";
+import { useTyper } from "../logics/typer";
 
-const typer = useTyper(words)
+const typer = useTyper(words);
 
-onMounted(() => typer.typeWords())
+onMounted(() => typer.typeWords());
 </script>

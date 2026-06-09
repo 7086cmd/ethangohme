@@ -28,9 +28,7 @@
             :href="'https://' + item?.websiteLink"
             class="flex items-center"
           >
-            <span
-              class="i-lucide-flag-triangle-right mx-10px text-0.9rem transition-160"
-            ></span>
+            <span class="i-lucide-flag-triangle-right mx-10px text-0.9rem transition-160"></span>
             <span
               ><u>{{ item?.websiteLink }}</u></span
             >
@@ -46,11 +44,11 @@
 </template>
 
 <script setup lang="ts">
-import { projects } from '../logics/projects'
+import { projects } from "../logics/projects";
 
 const jump = (url: string) => {
-  window.open(url)
-}
+  window.open(url);
+};
 </script>
 <style scoped>
 a:hover .i-lucide-arrow-up-right-square {
